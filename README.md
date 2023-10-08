@@ -143,8 +143,8 @@ int main(){
 }
 ```
 Once we compile with gcc, we compile it using the RISC-V compiler using O1 and Ofast
-![image](https://github.com/ks-vandana/pes_asic_class/blob/main/WEEK%201/DAY%201/O1.png)
-![image](https://github.com/ks-vandana/pes_asic_class/blob/main/WEEK%201/DAY%201/Ofast.png)
+![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%201/O1.png)
+![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%201/Ofast.png)
 
 #### Integer number representation
 + The below is the C code for finding max unsigned number
@@ -158,7 +158,7 @@ int main(){
 	return 0;
 }
 ```
-![image](https://github.com/ks-vandana/pes_asic_class/blob/main/WEEK%201/DAY%201/unsigned.png)
+![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%201/unsigned.png)
 
 + The below is the C code for finding range of signed numbers
 ```c
@@ -173,7 +173,7 @@ int main(){
 	return 0;
 }
 ```
-![image](https://github.com/ks-vandana/pes_asic_class/blob/main/WEEK%201/DAY%201/signed.png)
+![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%201/signed.png)
 
 </details>
 
@@ -214,7 +214,7 @@ loop:   add a4,a3,a4   //incremental addition
 	ret
 ```
 + Attached below is the disassembled code and the output when we use the spike simulator
-![image](https://github.com/ks-vandana/pes_asic_class/blob/main/WEEK%201/DAY%202/ASM_d.png)
-![image](https://github.com/ks-vandana/pes_asic_class/blob/main/WEEK%201/DAY%202/ASM.png)
+![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%202/ASM_d.png)
+![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%202/ASM.png)
 
 </details>
