@@ -123,10 +123,10 @@
 
 <summary><b> DAY 1 </b></summary>
 
-#### Introduction to RISC-V basic keywords
+### Introduction to RISC-V basic keywords
 The OS handles IO operations, allocates memory, and does low-level system functions. The compiler converts HLL programs into instructions based on the hardware. The assembler converts the instructions to binary. The instruction set architecture is the interface between C/C++ and the hardware.
 
-#### Labwork for RISC-V software toolchain
+### Labwork for RISC-V software toolchain
 + The below is the C code for calculating sum of numbers from 1 to n
 ```c
 #include <stdio.h>
@@ -146,7 +146,7 @@ Once we compile with gcc, we compile it using the RISC-V compiler using O1 and O
 ![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%201/O1.png)
 ![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%201/Ofast.png)
 
-#### Integer number representation
+### Integer number representation
 + The below is the C code for finding max unsigned number
 ```c
 #include <stdio.h>
@@ -181,9 +181,10 @@ int main(){
 
 <summary><b> DAY 2 </b></summary> 
 
-#### Application binary interface
+### Application binary interface
 ABI is a set of rules that tell us how binary code interacts with another binary code. 64 bit value can be loaded into the memory by 2 methods - little-endian and big-endian. Load instruction is used to transfer data from memory to a register. Store instruction is used to transfer data from register to memory. Add instruction performs addition operation on two registers. In RISC-V 64, we have 32 registers and their ABI names play a role in maintaining compatibility and facilitating communication between different software components
-#### Labwork using ABI function calls
+
+### Labwork using ABI function calls
 + The below is the C code for adding numbers from 1 to 9
 ```c
 #include <stdio.h>
@@ -216,5 +217,61 @@ loop:   add a4,a3,a4   //incremental addition
 + Attached below is the disassembled code and the output when we use the spike simulator
 ![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%202/ASM_d.png)
 ![image](https://github.com/ks-vandana/RISC-V/blob/main/DAY%202/ASM.png)
+
+</details>
+
+<details>
+
+<summary><b> DAY 3 </b></summary> 
+
+### Combinational logic in TL-Verilog using Makerchip
+
+
+### Sequential logic
+
+
+### Pipelined logic
+
+
+### Validity
+
+
+### Wrap-up
+
+
+
+</details>
+
+<details>
+
+<summary><b> DAY 4 </b></summary> 
+
+### Introduction to Simple RISC-V Micro-architecture
+
+
+### Fetch and decode
+
+
+### RISC-V control logic
+
+
+
+</details>
+
+
+
+<details>
+
+<summary><b> DAY 5 </b></summary> 
+
+### Pipelining the CPU
+
+
+### Solutions to Pipeline Hazards
+
+
+### Load/Store Instructions and Completing RISC-V CPU
+
+
 
 </details>
