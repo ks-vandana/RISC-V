@@ -250,6 +250,23 @@ Head to [makerchip.com](https://myth.makerchip.com/) and launch the makerchip id
 
 
 ### Sequential logic
+Sequential logic is sequenced by a clock signal. The circuit is constructed to enter a known state in response to a reset signal. The sequential circuit in its entirety can be viewed as a state machine.
+
++ Fibonacci series
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/c05f5b87-8967-450b-8d42-a6fb1774914d)
+
++ Free running counter
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/ea1ae132-0351-4b33-b6d7-6cee7e4c5a8f)
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/10adb7a1-17ea-4a9f-9dc9-03ebfa5c6e78)
+
++ Values in verilog
+  Simulator will zero extend or truncate when widths are mismatched and it uses 2-state simulation.
+
++ Sequential calculator
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/c7cbf40a-0da2-4474-8ee8-5e6cd890a518)
 
 
 ### Pipelined logic
