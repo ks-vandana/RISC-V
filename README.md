@@ -245,7 +245,9 @@ Head to [makerchip.com](https://myth.makerchip.com/) and launch the makerchip id
   ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/fccd87a4-3959-4a59-9079-f33224de13b5)
 
 + Combinational calculator
-  
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/9341b804-9a2c-44c6-a9da-7167cfeef0d8)
+
 
 ### Sequential logic
 
