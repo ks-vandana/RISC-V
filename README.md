@@ -225,13 +225,27 @@ loop:   add a4,a3,a4   //incremental addition
 <summary><b> DAY 3 </b></summary> 
 
 ### Combinational logic in TL-Verilog using Makerchip
-Refer to the github repository ![https://github.com/stevehoover/RISC-V_MYTH_Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop) for the preceding labs.
+Refer to the github repository [https://github.com/stevehoover/RISC-V_MYTH_Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop) for the preceding labs.
 
 The basic logic gates are NOT, AND, OR, XOR, NAND, NOR and XNOR. These can be used to make all combinational logic circuits. 
 ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/37430ef0-271d-40cf-919c-e1fb0945ec56)
 
 Let us take for example a mulitplexer or a mux. We can implement it using a ternary operator in verilog.
-Head to ![makerchip.com](https://myth.makerchip.com/) and launch the makerchip ide.
+Head to [makerchip.com](https://myth.makerchip.com/) and launch the makerchip ide.
+
++ Getting used to the makerchip platform
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/34d8dbbb-2a88-4d73-9df2-bbbff7dee179)
+  
++ Inverter, vectors and mux
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/5d0d3011-4e38-4cc2-9cd4-df48d7446cc1)
+
+  Unlike verilog, we need to specify bit ranges of inputs as well because inputs havent been predefined. For mux we can use the ternary operator.
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/fccd87a4-3959-4a59-9079-f33224de13b5)
+
++ Combinational calculator
+  
 
 ### Sequential logic
 
