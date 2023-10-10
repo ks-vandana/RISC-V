@@ -225,13 +225,13 @@ loop:   add a4,a3,a4   //incremental addition
 <summary><b> DAY 3 </b></summary> 
 
 ### Combinational logic in TL-Verilog using Makerchip
-Use the following website for the preceding labs
-```
-https://github.com/stevehoover/RISC-V_MYTH_Workshop
-```
+Refer to the github repository ![https://github.com/stevehoover/RISC-V_MYTH_Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop) for the preceding labs.
+
 The basic logic gates are NOT, AND, OR, XOR, NAND, NOR and XNOR. These can be used to make all combinational logic circuits. 
 ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/37430ef0-271d-40cf-919c-e1fb0945ec56)
 
+Let us take for example a mulitplexer or a mux. We can implement it using a ternary operator in verilog.
+Head to ![makerchip.com](https://myth.makerchip.com/) and launch the makerchip ide.
 
 ### Sequential logic
 
