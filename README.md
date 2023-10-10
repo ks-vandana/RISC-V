@@ -230,6 +230,8 @@ Use the following website for the preceding labs
 https://github.com/stevehoover/RISC-V_MYTH_Workshop
 ```
 The basic logic gates are NOT, AND, OR, XOR, NAND, NOR and XNOR. These can be used to make all combinational logic circuits. 
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/37430ef0-271d-40cf-919c-e1fb0945ec56)
+
 
 ### Sequential logic
 
