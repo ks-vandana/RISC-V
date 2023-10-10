@@ -225,7 +225,11 @@ loop:   add a4,a3,a4   //incremental addition
 <summary><b> DAY 3 </b></summary> 
 
 ### Combinational logic in TL-Verilog using Makerchip
-
+Use the following website for the preceding labs
+```
+https://github.com/stevehoover/RISC-V_MYTH_Workshop
+```
+The basic logic gates are NOT, AND, OR, XOR, NAND, NOR and XNOR. These can be used to make all combinational logic circuits. 
 
 ### Sequential logic
 
