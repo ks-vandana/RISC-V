@@ -270,7 +270,15 @@ Sequential logic is sequenced by a clock signal. The circuit is constructed to e
 
 
 ### Pipelined logic
+If logic is too deep to fit in 1 cycle, we pipleine it into multiple clock cycles. In TL Verilog, flip flops and stage signals are implied from the context of pipeline. 
 
++ Pipelined pythagoras's theorem
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/1be92739-9b0f-4406-a0a1-3b1adc6da1f8)
+
+  Retiming in TL Verilog is easy and safe and can be done by just using **@**. Retiming in system verilog is very bug prone.
+
+Pipelines provide benefit of performance. 
 
 ### Validity
 
