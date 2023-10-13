@@ -278,7 +278,20 @@ If logic is too deep to fit in 1 cycle, we pipleine it into multiple clock cycle
 
   Retiming in TL Verilog is easy and safe and can be done by just using **@**. Retiming in system verilog is very bug prone.
 
-Pipelines provide benefit of performance. 
+Pipelines provide benefit of performance. By pipelining our design, we are able to run it for a faster clock which means throughput is higher. 
+
++ Identifier and types
+  Identifiers can have 3 different styles  - lower case, camel case and upper case.
+
++ Lab
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/80e0d691-65ca-40b8-ac64-6748ac1f92ed)
+
++ Pipelined calculator
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/1dd34537-ecbd-4073-aa48-886ad6173389)
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/4c55df83-0153-4400-b197-be2c8370a3a8)
 
 ### Validity
 
