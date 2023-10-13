@@ -294,7 +294,9 @@ Pipelines provide benefit of performance. By pipelining our design, we are able 
   ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/4c55df83-0153-4400-b197-be2c8370a3a8)
 
 ### Validity
+Validity makes the code easier to debug, with cleaner design, better error checking and automated clock gating. 
 
+Clock gating is a power saving feature as it avoids toggling clock signals.
 
 ### Wrap-up
 
