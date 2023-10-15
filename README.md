@@ -306,9 +306,9 @@ Clock gating is a power saving feature as it avoids toggling clock signals.
 
   ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/8506c709-7c38-4372-8d0a-ec305fab6174)
 
++ Calculator with single value memory
 
-### Wrap-up
-
+   ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/fa883851-9ea9-4399-aa5b-922b8a6d8908)
 
 
 </details>
@@ -318,6 +318,9 @@ Clock gating is a power saving feature as it avoids toggling clock signals.
 <summary><b> DAY 4 </b></summary> 
 
 ### Introduction to Simple RISC-V Micro-architecture
+
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/f06b661c-2bf5-4b88-a2e3-80adb5a947f4)
+
 
 
 ### Fetch and decode
