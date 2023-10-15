@@ -321,7 +321,11 @@ Clock gating is a power saving feature as it avoids toggling clock signals.
 
 ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/f06b661c-2bf5-4b88-a2e3-80adb5a947f4)
 
+The **program counter** is a pointer to the instruction memory. The output of the **instruction memory** is the memory itself which we decode using the **decode block**. Decoding gives us Rs, Rd and immediate values. These are operated on using the **ALU**. **Data memory** is also present for read and write operations.
 
+For the consecutive labs, we will use the "RISC-V lab starting point code" from [https://github.com/stevehoover/RISC-V_MYTH_Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop). 
+
+Use the following links : [risc-v-starting-code-1](https://myth.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FRISC-V_MYTH_Workshop%2Fmaster%2Frisc-v_shell.tlv#) and [risc-v-starting-code-2](https://myth.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FRISC-V_MYTH_Workshop%2Fmaster%2Freference_solutions.tlv#)
 
 ### Fetch and decode
 
