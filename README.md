@@ -298,6 +298,12 @@ Validity makes the code easier to debug, with cleaner design, better error check
 
 Clock gating is a power saving feature as it avoids toggling clock signals.
 
++ Distance calculator
+
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/d859d66e-44f8-46ca-97cc-5cf8282e64e6)
+
++ 2 cycle calculator with validity
+
 ### Wrap-up
 
 
