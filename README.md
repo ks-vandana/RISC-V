@@ -304,6 +304,9 @@ Clock gating is a power saving feature as it avoids toggling clock signals.
 
 + 2 cycle calculator with validity
 
+  ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/8506c709-7c38-4372-8d0a-ec305fab6174)
+
+
 ### Wrap-up
 
 
