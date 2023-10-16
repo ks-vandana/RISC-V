@@ -329,6 +329,7 @@ Use the following links : [risc-v-starting-code-1](https://myth.makerchip.com/sa
 
 ### Fetch and decode
 
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/3d081481-e827-4006-a1f9-7f6355a626d9)
 
 ### RISC-V control logic
 
