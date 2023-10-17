@@ -331,6 +331,10 @@ Use the following links : [risc-v-starting-code-1](https://myth.makerchip.com/sa
 
 ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/3d081481-e827-4006-a1f9-7f6355a626d9)
 
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/967ff81c-07b9-4bdb-8428-4ec0cc57de61)
+
+At the end of this set we have a PC, Instruction memory and a decode unit.
+
 ### RISC-V control logic
 
 
