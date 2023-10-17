@@ -336,11 +336,10 @@ Use the following links : [risc-v-starting-code-1](https://myth.makerchip.com/sa
 At the end of this set we have a PC, Instruction memory and a decode unit.
 
 ### RISC-V control logic
-
-
+At the end of this set we will have register file read, ALU and register file write in our TL Verilog code.
+Code also takes care of branch instructions. 
 
 </details>
-
 
 
 <details>
