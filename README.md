@@ -333,6 +333,13 @@ Use the following links : [risc-v-starting-code-1](https://myth.makerchip.com/sa
 
 ![image](https://github.com/ks-vandana/RISC-V/assets/116361300/967ff81c-07b9-4bdb-8428-4ec0cc57de61)
 
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/1fd1630f-e133-4c70-a352-31292259bd53)
+
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/567b6427-b89f-400a-8b8d-3bc481e407e6)
+
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/f1a35f03-c9e9-4791-8483-51680e48607c)
+
+
 At the end of this set we have a PC, Instruction memory and a decode unit.
 
 ### RISC-V control logic
@@ -349,11 +356,11 @@ Code also takes care of branch instructions.
 ### Pipelining the CPU
 We want to run our RISC-V CPU at a higher frequency. This is achieved by increasing the pipeline stages. Till now the CPU was a 3 stage pipeline and we want to make it a 5 stage pipeline. But this leads to 2 hazards - control flow hazard and read after write hazard. We overcome this by creating a 3 cycle valid signal.
 
-### Solutions to Pipeline Hazards
+### Solutions to Pipeline Hazards and Load/Store Instructions and Completing RISC-V CPU
+To fix pipeline hazards we add valid signals. 
 
+![image](https://github.com/ks-vandana/RISC-V/assets/116361300/30d04c31-2a4e-4aa2-ae71-a5943d58eaed)
 
-### Load/Store Instructions and Completing RISC-V CPU
-
-
+Code is present in the folder **DAY 4, 5**
 
 </details>
