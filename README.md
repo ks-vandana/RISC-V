@@ -347,7 +347,7 @@ Code also takes care of branch instructions.
 <summary><b> DAY 5 </b></summary> 
 
 ### Pipelining the CPU
-
+We want to run our RISC-V CPU at a higher frequency. This is achieved by increasing the pipeline stages. Till now the CPU was a 3 stage pipeline and we want to make it a 5 stage pipeline. But this leads to 2 hazards - control flow hazard and read after write hazard. We overcome this by creating a 3 cycle valid signal.
 
 ### Solutions to Pipeline Hazards
 
